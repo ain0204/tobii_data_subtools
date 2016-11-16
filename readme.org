@@ -8,9 +8,10 @@ $ python data_separater.py <FILE NAME>
 第一引数はTobii analyzerで出力したファイル名です。
 
 **  Tobii Glassesで計測した録画データを取り出したいんだけどいい方法ない？
-”get_recording_data.py”
+”get_recording_data.py”を使うと良いと思います。
+
 Tobii Glassesで計測したデータはSDカード内に保存されており、中に素の録画データも保存されています。
-その録画データを指定のディレクトリにCopyしてRenameしてくれます。
+その録画データを指定のディレクトリにCopyしてRenameしてくれるスクリプトです。
 (コード内のフラグをFalseにすればCopyをMoveに変更できます。)
 
 $ python get_recording_data.py <SD_CARD_DIR>/projects/<foo>/recordings <OUTPUT_DIR>
