@@ -17,6 +17,11 @@ $ python get_recording_data.py <SD_CARD_DIR>/projects/<foo>/recordings <OUTPUT_D
 
 第一引数はSDカード内のrecordingsディレクトリのpathを指定してください。第二引数は出力先のディレクトリ名です。
 
+
+* 注意
+実行するときはデータをコピーして、コピーしたデータに適用してください。
+バグには注意していますが、大事なデータが消えても僕は責任を取りません。
+
 * 実行環境
 Linux上のPython 3.5.2 で動くことを確認しています。
 Python3系では問題なく動くと思います。
